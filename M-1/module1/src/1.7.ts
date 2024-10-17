@@ -21,4 +21,10 @@
     ...mentor1,
     ...mentor2,
   };
+
+  //  rest operator---------
+  const greetF = (...friends: string[]) => {
+    friends.forEach((friend: string) => console.log(`Hi ${friend}`));
+  };
+  greetF("a", "b", "C");
 }
