@@ -18,4 +18,13 @@
   console.log(result1);
   const result2 = kgToGm("1000") as string;
   console.log(result2);
+
+  type CustomError = {
+    message: string;
+  };
+
+  try {
+  } catch (error) {
+    console.log((error as CustomError).message);
+  }
 }
