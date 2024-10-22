@@ -25,5 +25,14 @@
   const res10 = createArrayWithTuple("Bangladesh", 222);
   const resGeneric10 = createArrayWithTuple<string, string>("USA", "UK");
 
+  const addCourseToStudent = <T>(student: T) => {
+    const course = "Next Level Web Development";
+    return {
+      ...student,
+      course,
+    };
+  };
+  const student1 = addCourseToStudent({ name: "Mr X", email: "x@gmail.com" });
+
   //
 }
