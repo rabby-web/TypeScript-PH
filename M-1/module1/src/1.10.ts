@@ -28,9 +28,9 @@
   };
   type FullstackDeveloper = FrontendDeveloper & BackendDeveloper;
 
-  const fullstackDeveloper: FrontendDeveloper = {
+  const fullstackDeveloper: FrontendDeveloper & BackendDeveloper = {
     skills: ["HTML"],
     designation1: "Frontend Developer",
-    // designation2: "Backend Developer",
+    designation2: "Backend Developer",
   };
 }
