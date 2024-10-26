@@ -30,19 +30,52 @@ values[1] = 20;
 
 values[2] = 30;
 
+----------------------Q3-----------------
 3. List the Applications of TypeScript
 Both client-side and server-side JavaScript applications can be built with TypeScript.
 TypeScript is used to create both client-side and server-side JavaScript applications.
 Because TypeScript adds more functionality and provides errors directly in the code, it can be used instead of JavaScript.
 TypeScript is a programming language that is used to create large-scale enterprise systems.
+
+----------------------Q4-----------------
 4. List the Advantages of TypeScript
 Problems are highlighted throughout development and at compilation time.
 Typescript can be run in any browser or JavaScript engine.
 A namespace notion is created by declaring a module.
 IntelliSense is a TypeScript feature that provides active hints as you type.
 Strongly typed or static typing is supported. The advantage of TypeScript is that it is strictly typed or allows for static typing. Because of static typing, it may confirm type correctness at compilation time.
+
+----------------------Q5-----------------
 5. List the disadvantages of TypeScript
 It takes a long time to compile TypeScript code.
 Abstract classes are not supported in TypeScript.
 Converting TypeScript to JavaScript requires an additional compilation step.
 Its type scheme is extremely complicated.
+
+----------------------Q6-----------------
+6. Explain the features of Arrays in TypeScript
+An array declaration allocates memory blocks in a sequential order.
+Arrays are immutable. This means that once an array is created, it cannot be resized.
+An array element is represented by each memory block.
+The subscript/index of an array element is a unique number that identifies the element.
+Arrays, like variables, should be declared before being used. Declare an array with the var keyword.
+The term "array initialization" refers to the process of filling an array with elements.
+The values of array elements can be updated or modified, but they cannot be erased.
+
+----------------------Q7-----------------
+7. How to declare a variable in TypeScript?
+Let and const are the two methods to declare variables.
+Alphabets and numeric digits can both be used in variable names.
+Except for the underscore (_) and the dollar ($) sign, they cannot contain spaces or special characters.
+A digit can’t be the first character in a variable name.
+let var a=10;
+
+ or
+
+function f() {
+
+  var message = "Hello, world!";
+
+  return message;
+
+}
