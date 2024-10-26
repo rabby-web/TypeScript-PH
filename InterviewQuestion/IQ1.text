@@ -1,0 +1,48 @@
+
+Beginner Level TypeScript Interview Questions
+Here is a list of all possible TypeScript interview questions asked to freshers and their answers.
+
+----------------------Q1-----------------
+1. What is TypeScript? 
+WhatisTypescript
+
+TypeScript is a superset of JavaScript. It is an object-oriented and tightly typed programming language. TypeScript code is transformed to JavaScript, which may be used in any environment that supports JavaScript, including browsers, Node.js, and your own applications.
+Anders Hejlsberg of MICROSOFT created TypeScript. TypeScript was created in response to the limitations of JavaScript for constructing large-scale applications within Microsoft and among its external customers. There was a demand for bespoke tooling to make developing JavaScript components easier due to the complexity of working with complicated JavaScript code.
+TypeScript is a variant of JavaScript with a few more features. TypeScript extends JavaScript with extra syntax to provide a more robust interface with your editor. TypeScript is a scripting language that is compatible with JavaScript and relies on type inference to deliver advanced functionality without the need for additional code.
+
+----------------------Q2-----------------
+2. Explain Arrays in TypeScript
+A collection of values of the same data type is called an array. It's a kind that's been defined by the user. To store values of the same kind, you use arrays. Arrays are collections of values that are ordered and indexed. The indexing begins at zero, with the first element having index 0, the second having index 1, and so on.
+
+Syntax: 
+
+var array_name[:datatype];        //declaration 
+
+array_name = [val1,val2,valn..]   //initialization
+
+Example:
+
+let values: number[] = [];
+
+values[0] = 10;
+
+values[1] = 20;
+
+values[2] = 30;
+
+3. List the Applications of TypeScript
+Both client-side and server-side JavaScript applications can be built with TypeScript.
+TypeScript is used to create both client-side and server-side JavaScript applications.
+Because TypeScript adds more functionality and provides errors directly in the code, it can be used instead of JavaScript.
+TypeScript is a programming language that is used to create large-scale enterprise systems.
+4. List the Advantages of TypeScript
+Problems are highlighted throughout development and at compilation time.
+Typescript can be run in any browser or JavaScript engine.
+A namespace notion is created by declaring a module.
+IntelliSense is a TypeScript feature that provides active hints as you type.
+Strongly typed or static typing is supported. The advantage of TypeScript is that it is strictly typed or allows for static typing. Because of static typing, it may confirm type correctness at compilation time.
+5. List the disadvantages of TypeScript
+It takes a long time to compile TypeScript code.
+Abstract classes are not supported in TypeScript.
+Converting TypeScript to JavaScript requires an additional compilation step.
+Its type scheme is extremely complicated.

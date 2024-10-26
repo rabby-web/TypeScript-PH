@@ -26,6 +26,7 @@
   //     a: string;
   //     b: string;
   //   };
+  const EmptyObj: Record<string, unknown> = {};
   type MyOBj = Record<string, string>;
   const obj1: MyOBj = {
     a: "aa",
