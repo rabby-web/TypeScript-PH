@@ -79,11 +79,14 @@ function f() {
   return message;
 
 }
-15. Differentiate between the .ts and .tsx file extensions given to the TyppeScript file.
+----------------------Q8-----------------
+8. Differentiate between the .ts and .tsx file extensions given to the TyppeScript file.
 The .ts file extension is used to create a file that contains the pure TypeScript code inside it. These files are mainly created to implement the classes, functions, reducers and other pure typescript code. These files does not contain any JSX code. On the other hand, the .tsx file extensions are used to create the files that contains the JSX code inside it. These files are mainly used to build a react component that returns the JSX code at the end.
 
-16. What is “in” operator and why it is used in TypeScript?
+----------------------Q9-----------------
+9. What is “in” operator and why it is used in TypeScript?
 The in opertaor is used to check whether a property is present in the testing object or not. It will return true, if it finds the property in the object. Otherwise, it will return false.
 
-17. Explain the union types in TypeScript?
+----------------------Q10-----------------
+10. Explain the union types in TypeScript?
 The union types in TypeScript represents that the value of a variable can be 
