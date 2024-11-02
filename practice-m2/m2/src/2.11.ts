@@ -28,5 +28,18 @@
   };
   // person1.name = "Mr. DC";
 
+  //   Record
+  //   type MyObj = {
+  //     a: string;
+  //     b: string;
+  //   };
+  type MyObj = Record<string, string>;
+  const obj1: MyObj = {
+    a: "aa",
+    b: "bb",
+    c: "cc",
+  };
+
+  const EmptyObj: Record<string, unknown> = {};
   //
 }
