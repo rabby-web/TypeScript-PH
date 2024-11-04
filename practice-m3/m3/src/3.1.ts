@@ -11,7 +11,7 @@
     }
   }
 
-  const dog = new Animal("Dog", "dog", "Ghew");
+  const dog = new Animal("Dog", "dog", "Ghe");
   const cat = new Animal("Cat", "cat", "Mew");
 
   //
