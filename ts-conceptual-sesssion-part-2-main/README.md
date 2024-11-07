@@ -13,3 +13,5 @@
 - Use **protected** for members that should be accessible in the class and its subclasses but not from outside.
 
 Access modifiers help encapsulate class data and methods, ensuring that your code is more modular, maintainable, and less prone to errors.
+
+<!-- ts second concept session -->
